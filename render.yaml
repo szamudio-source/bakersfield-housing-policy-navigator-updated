@@ -7,7 +7,7 @@ services:
     plan: free
     branch: main
     autoDeployTrigger: off
-    buildCommand: tar -xzf source-bundle-20261022-v2.tgz && npx --yes pnpm@11.25.0 install --frozen-lockfile && npx --yes pnpm@11.25.0 run build
+    buildCommand: tar -xzf source-bundle-20261022-v3.tgz && npx --yes pnpm@11.25.0 install --frozen-lockfile && npx --yes pnpm@11.25.0 run build
     startCommand: node scripts/start-hosted-demo.mjs
     healthCheckPath: /api/session
     envVars:
