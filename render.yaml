@@ -3,6 +3,7 @@ services:
   - type: web
     name: bakersfield-housing-policy-navigator
     runtime: node
+    repo: https://github.com/szamudio-source/bakersfield-housing-policy-navigator-updated
     plan: free
     branch: main
     autoDeployTrigger: off
